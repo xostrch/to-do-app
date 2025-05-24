@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.exo-2{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Exo 2";
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(82, 78, 153), rgb(22, 21, 42));
+    overflow: hidden;
+}
+
+.main{
+    background-color: rgb(62, 62, 84);
+    width: 35em;
+    border-radius: 1em;
+    overflow: auto;
+    max-height:500px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+    width: 100%;
+}
+
+.add-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.input-task{
+    width: 75%;
+    height: 3.4em;
+    margin-right: 0.8em;
+    border: none;
+    background-color:rgb(36, 35, 49);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.input-task:focus{ 
+    outline: none;
+}
+
+.button-add{
+    width: 13%;
+    height: 3.4em;
+    border: none;
+    background-color: rgb(147, 142, 255);
+    cursor: pointer;
+}
+
+.tasks-all{
+    justify-content: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0.8em;
+    border-bottom: 2px rgb(36, 35, 49)solid;
+    height: 2em;
+    padding-top: 0.8em;
+}
+
+.task-name{
+    width:80%;
+    font-size: 1em;
+    margin-left: 1.5em;
+    margin-top: 0.2em;
+}
+
+
+.buttons{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    height: 100%;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+}
+
+.button{
+    width:2.3em;
+    height: 2.3em;
+    border: none;
+    margin-left: 0.5em;
+    background-color: rgba(0, 0, 0, 0.366);
+    cursor: pointer;
+    border-radius: 0.3em;
+}
+
+.img-icons{
+    width: 100%;
+}
+

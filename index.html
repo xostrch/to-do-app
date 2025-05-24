@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+            To-Do List
+        </div>
+        <div class="add-box">
+            <input type="text" class="input-task" id="input-task">
+            <button class="button-add" onclick="addTask()">Add</button>
+        </div>
+        <div class="tasks-all" id="task-adding">
+            <div class="task">
+                <div class="task-name">umyc naczynia</div>
+                <div class="buttons">
+                    <button class="button"><img src="done.png" class="img-icons"></button>
+                    <button class="button"><img src="edit.png" class="img-icons"></button>
+                    <button class="button"><img src="delete.png" class="img-icons"></button>
+                </div>
+            </div>           
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
