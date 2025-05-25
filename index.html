@@ -6,24 +6,23 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
+    <div class="error-box" id="error-box">
+        <div class="error-close">
+            <button class="button-close" onclick="closeError()"><img src="close.png" class="close-icon"></button>
+        </div>
+        <div class="error-name">Please enter the task name</div>
+    </div>
+
     <div class="main">
         <div class="title">
             To-Do List
         </div>
         <div class="add-box">
-            <input type="text" class="input-task" id="input-task">
+            <input type="text" class="input-task" id="input-task" autocomplete="off">
             <button class="button-add" onclick="addTask()">Add</button>
         </div>
-        <div class="tasks-all" id="task-adding">
-            <div class="task">
-                <div class="task-name">umyc naczynia</div>
-                <div class="buttons">
-                    <button class="button"><img src="done.png" class="img-icons"></button>
-                    <button class="button"><img src="edit.png" class="img-icons"></button>
-                    <button class="button"><img src="delete.png" class="img-icons"></button>
-                </div>
-            </div>           
+        <div class="tasks-all" id="task-adding">          
         </div>
     </div>
     <script src="main.js"></script>
